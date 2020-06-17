@@ -16,7 +16,7 @@ El paquete identipy puede ser usado de forma independiente pero lo más aconseja
     5. Colocar finalmente el paquete de identipy y el script
     6. Ejecutar el script
 
->> ¡¡IMPORTANTE!!: fundamental reemplazar el archivo 'prosite.dat_placeholder' del repositorio por prosite.dat (demasiado grande para cargarlo).
+>> ¡¡IMPORTANTE!!: fundamental reemplazar el archivo 'prositedat_placeholder' del repositorio por prosite.dat (demasiado grande para cargarlo).
 
 Ejecución del script: 
 `main.py query_path database_path [evalue]`
