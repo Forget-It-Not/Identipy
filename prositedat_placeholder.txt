@@ -1,0 +1,3 @@
+Este archivo debe ser reemplazado por prosite.dat (ftp://ftp.expasy.org/databases/prosite/prosite.dat), un archivo parseable que contiene las bases de datos de la web Prosite.
+
+Este archivo solo está aquí para recordar que debe ser reemplazado por prosite.dat
