@@ -26,7 +26,7 @@ def make_multifa (database_path):
                     #El control de argumentos es complicado porque SeqIO parsea el archivo
                     #sin producir error aunque no sea GenBank (no se puede usar try/except)
                     any = False #Se asume inicialmente que no tiene ningún record
-                    for record in SeqIO.parse(handle, 'genbank'):
+                    for record in genbank:
                         #Si tiene algún record se cambia any -> True y se asume que es GenBank
                         any = True
                         #Se añade la entrada correspondiente en la tabla ID-organismo
