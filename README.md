@@ -19,13 +19,17 @@ El paquete identipy puede ser usado de forma independiente pero lo más aconseja
 >> ¡¡IMPORTANTE!!: fundamental reemplazar el archivo 'prositedat_placeholder' del repositorio por prosite.dat (demasiado grande para cargarlo).
 
 Ejecución del script: 
-`main.py query_path database_path [evalue]`
+`main.py query_path database_path [evalue=num] [cov=num] [iden=num]`
 
     - query_path: ruta del directorio donde están contenidas todas las proteinas query (una query por archivo en formato fasta)
     
     - database_path: ruta del directorio donde están contenidos todos los genbank referentes a los ensamblados genómicos
     
-    - evalue (opcional): evalue usado como umbral en blastp
+    - evalue=num (opcional): num se sustituye por el numero usado como umbral de evalue en blastp (e.g. evalue=0.01)
+
+    - cov=num (opcional): num se sustituye por el % minimo de cobertura de los hits (e.g. cov=70)
+
+    - iden=num (opcional): num se sustituye por el % minimo de identidad de los hits (e.g. id=70)
     
  --------------------------------------------------------------------------------------------------------------------------
  ## Resultados
