@@ -34,9 +34,9 @@ Ejecución del script:
     - evalue=num: num se sustituye por el número que se quiere aplicar como
                   máximo de evalue a blastp (ej. evalue=0.01)
     - cov=num: num se sustituye por el % que se quiere aplicar como mínimo de
-                  cov a blastp (ej. cov=70)
+               cov a blastp (ej. cov=70)
     - iden=num: num se sustituye por el % que se quiere aplicar como mínimo de
-                  id a blastp (ej. id=70)
+                id a blastp (ej. id=70)
 
 Archivos resultado
 ------------------
@@ -138,6 +138,11 @@ print('/**********************************************************************'\
 print('* '+header+'Ejecutando análisis de identipy en: '+os.getcwd()+normal)
 print('\\*********************************************************************'\
      + '******************************************************')
+
+print('\nValores de parámetros usados en el análisis:')
+print('evalue: '+str(eval))
+print('coverage: '+str(cov)+'%')
+print('identity: '+str(iden)+'%')
 
 print('\n> Creando base de datos multifasta MultifaDB.fasta de los '\
      + 'ensamblados genómicos...')
