@@ -9,12 +9,14 @@ El paquete identipy puede ser usado de forma independiente pero lo más aconseja
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Instrucciones de uso
-    1. Seleccionar/crear una carpeta en la que se va a realizar el análisis
-    2. Crear en su interior una carpeta que contiene el grupo de genbanks de ensamblados genómicos que se van a usar (database)
-    3. Crear también una carpeta que contiene el grupo de proteinas query en formato Fasta de a 1 proteína por archivo (query)
-    4. Descargar y colocar también el archivo prosite.dat (ftp://ftp.expasy.org/databases/prosite/prosite.dat) en la carpeta
-    5. Colocar finalmente el paquete de identipy y el script
-    6. Ejecutar el script
+    1. Colocar en una carpeta el paquete identipy, el script main.py y el archivo prosite.dat 
+    (ftp://ftp.expasy.org/databases/prosite/prosite.dat)
+    
+    2. Introducir todos los archivos querys (1 archivo fasta por query) en un directorio (query_path)
+    
+    3. Introducir todos los archivos genbank de ensamblados genómicos en un directorio (database_path)
+    
+    4. Ejecutar el script 
 
 >> ¡¡IMPORTANTE!!: fundamental reemplazar el archivo 'prositedat_placeholder' del repositorio por prosite.dat (demasiado grande para cargarlo).
 
