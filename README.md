@@ -12,9 +12,15 @@ El paquete identipy puede ser usado de forma independiente pero lo más aconseja
     1. Colocar en una carpeta el paquete identipy, el script main.py y el archivo prosite.dat 
     (ftp://ftp.expasy.org/databases/prosite/prosite.dat)
     
+![alt text](Imagenes_instrucciones_de_uso/im1.png)
+    
     2. Introducir todos los archivos querys (1 archivo fasta por query) en un directorio (query_path)
     
     3. Introducir todos los archivos genbank de ensamblados genómicos en un directorio (database_path)
+    
+![alt text](Imagenes_instrucciones_de_uso/im2.png)
+
+En este ejemplo los directorios query y database se han puesto en el mismo directorio que el paquete y el resto de archivos pero se pueden colocar en cualquier directorio.
     
     4. Ejecutar el script 
 
