@@ -33,6 +33,7 @@ Ejecución del script:
     
     - database_path: ruta del directorio donde están contenidos todos los genbank referentes a los ensamblados genómicos
     
+    
     - evalue=num (opcional): num se sustituye por el numero usado como umbral de evalue en blastp (e.g. evalue=0.01)
 
     - cov=num (opcional): num se sustituye por el % minimo de cobertura de los hits (e.g. cov=70)
