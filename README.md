@@ -29,16 +29,21 @@ En este ejemplo los directorios query y database se han puesto en el mismo direc
 Ejecución del script: 
 `main.py query_path database_path [evalue=num] [cov=num] [iden=num]`
 
-    - query_path: ruta del directorio donde están contenidas todas las proteinas query (una query por archivo en formato fasta)
+    - query_path: ruta del directorio donde están contenidas todas las proteinas query 
+      (una query por archivo en formato fasta)
     
-    - database_path: ruta del directorio donde están contenidos todos los genbank referentes a los ensamblados genómicos
+    - database_path: ruta del directorio donde están contenidos todos los genbank 
+      referentes a los ensamblados genómicos
     
     
-    - evalue=num (opcional): num se sustituye por el numero usado como umbral de evalue en blastp (e.g. evalue=0.01)
+    - evalue=num (opcional): num se sustituye por el numero usado como 
+      umbral de evalue en blastp (e.g. evalue=0.01)
 
-    - cov=num (opcional): num se sustituye por el % minimo de cobertura de los hits (e.g. cov=70)
+    - cov=num (opcional): num se sustituye por el % minimo de cobertura 
+      de los hits (e.g. cov=70)
 
-    - iden=num (opcional): num se sustituye por el % minimo de identidad de los hits (e.g. id=70)
+    - iden=num (opcional): num se sustituye por el % minimo de identidad
+      de los hits (e.g. id=70)
     
  --------------------------------------------------------------------------------------------------------------------------
  ## Resultados
